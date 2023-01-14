@@ -1,0 +1,231 @@
+.sidebar-two{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: gray;
+    margin-top: -570px;
+    width: 380px;
+    margin-left: 908px;
+    height: 3000px;
+}
+
+.search-twitter{
+    width: 260px;
+    height: 40px;
+    background-color: rgb(239, 243, 244);;
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 4px;
+    padding-left: 50px;
+    padding-right: -70px;
+}
+
+.search-twitter:focus{
+    outline: none;
+}
+
+.search-twitter-div{
+    margin-left: 0px;
+    margin-top: -1px;
+    padding-right: 30px;
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 100px;
+}
+
+.what-happening-text{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.what-happening-div{
+    margin-left: 30px;
+    margin-right: 90px;
+    margin-top: 65px;
+    padding-top: 0px;
+    background-color: rgb(247, 249, 249);
+    border-radius: 15px;
+    height: 536px;
+}
+
+.alingment-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-image{
+    width: 60px;
+    height: 60px;   
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.happening-image{
+    padding-right: 15px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+.happening-text{
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+
+.trending-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tweets-quantity{
+    font-family: Arial;
+    color: rgb(136, 135, 135);
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.happening-title{
+    font-family: Arial;
+    color: rgb(136, 135, 135);
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.happening-description{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.show-more-text{
+    color: rgb(29, 155, 240);
+    font-family: Arial;
+    font-size: 14px;
+    padding-left: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.show-more-div{
+    margin-bottom: 0px;
+}
+
+.profile-name{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.top-happening{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.top-happening-span{
+    font-family: Arial;
+    color: gray;
+}
+
+.news-text{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+
+.happening-profile{
+    margin-top: 11px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.happening-one{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.happening-one:hover{
+    background-color: rgb(222, 230, 230);
+}
+
+.happening-two:hover{
+    background-color: rgb(222, 230, 230);
+}
+
+.happening-two{
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    height: 60px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.happening-three:hover{
+    background-color: rgb(222, 230, 230);
+}
+
+.happening-three{
+    padding-bottom: 1px;
+    height: 120px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.happening-one-blocked:hover{
+    background-color: rgb(222, 230, 230);
+}
+
+.happening-one-blocked
+{
+    height: 70px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.show-more-div:hover{
+    background-color: rgb(222, 230, 230);
+}
+
+.show-more-div{
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
